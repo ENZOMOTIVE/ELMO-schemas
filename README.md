@@ -1,37 +1,69 @@
+# ELMO Schemas
 
-The ELMO XML format
-===================
+## Project Tags
 
-The ELMO XML format is the basis for the exchange of result information. 
-Elmo is based on the CEN standard EN 15981-2011 EuroLMAI. 
-EuroLMAI is a data model describing assessments, primarily Diplomas, 
-Diploma Supplements and Transcripts of Records for higher educations.
+- `Protocol`
 
-EMREX response XML schema
--------------------------
+## Overview
 
-This schema describes the XML files returned in EMREX EMP responses.
+ELMO Schemas is a project repository with documented structure, setup, and maintenance notes.
 
-Please note that the following terms are *equivalent* throughout the EMREX
-specs:
+## Features
 
-- EMREX response file,
-- EMP response file,
-- ELMO file.
+- Clear repository structure ready for implementation and future expansion
 
-For more information on EMREX, please visit http://emrex.eu/.
+## Tech Stack
 
+- Stack is not declared yet
 
-Important
----------
+## Project Structure
 
-* The latest official version of this schema can be found here:
+- `CHANGELOG.md` - project file or directory
+- `CONTRIBUTING.md` - project file or directory
+- `LICENSE.txt` - project file or directory
+- `example.xml` - project file or directory
+- `references` - project file or directory
+- `schema.xsd` - project file or directory
 
-  https://github.com/emrex-eu/elmo-schemas/releases
+## Getting Started
 
-  Please note, that the `master` branch **MAY** contain some changes which has
-  not yet been released (and **MAY** be reverted).
+### Prerequisites
 
-* There are many important restrictions described in the XSD annotations. **All
-  implementers** (and schema designers) are **REQUIRED** to read all the
-  annotations carefully.
+- Git
+
+### Setup and Run
+
+```bash
+git clone https://github.com/ENZOMOTIVE/ELMO-schemas.git
+cd ELMO-schemas
+```
+
+Add implementation-specific install and run commands here as the project grows.
+
+## Commands
+
+- No automated command set is declared yet; document commands here as tooling is added.
+
+## Configuration
+
+- No required runtime configuration is documented yet. Add environment variables here when the project needs them.
+
+## Testing and Quality
+
+- No automated test workflow is declared yet; add tests and document the command here as the project matures.
+
+## Documentation Notes
+
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
+
+## Contributing
+
+1. Create a focused branch for the change.
+2. Update code and documentation together.
+3. Run the relevant checks before opening a pull request.
+
+## License
+
+See the repository license file for usage terms.
